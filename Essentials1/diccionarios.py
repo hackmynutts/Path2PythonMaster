@@ -44,6 +44,11 @@ print(contactos)
 del contactos["Rudy"]
 print(contactos)
 
+#metodo .copy()
+#permite copiar un diccionario
+new_dictionary = contactos.copy()
+print(new_dictionary)
+
 #eliminar el ultimo par clave-valor
 contactos.popitem()
 print(contactos)
@@ -52,7 +57,10 @@ print(contactos)
 contactos.clear()
 print(contactos)
 
-#metodo .copy()
-#permite copiar un diccionario
-new_dictionary = contactos.copy()
-print(new_dictionary)
+
+#comprobar si una clave esta en un diccionario
+print("Brittany" in new_dictionary)
+print("Rudy" in new_dictionary)
+
+#comprobar con un valor si esta en un diccionario no funciona
+print(71317982 in new_dictionary)#retornara un falso incorrecto, porque 71317982 es un valor y no una clave
