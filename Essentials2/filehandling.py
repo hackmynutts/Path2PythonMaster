@@ -45,7 +45,25 @@ for line in myInput:
 myInput.close()
 
 
+#leer mediante un bucle while
+
 myInput = open("hello.txt", "r")
-for line in myInput.read():#devolvera cada una de las letras
+print("leer mediante un bucle while")
+while True:
+    line = myInput.readline()
+    if not line:
+        break
     print(line)
 myInput.close()
+
+
+#implementando el with
+with open("hello.txt", "r") as myInput:
+    for line in myInput:
+        print(line),
+
+
+#leer y escribir
+with open("hello.txt", "r") as myInput, open("hi.txt", "w") as myOutput:
+        for line in myInput:
+            myOutput.write(line)
