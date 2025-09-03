@@ -19,5 +19,13 @@ shutil.move("C:/Users/jorge/OneDrive/Escritorio/DEV/Path2PythonMaster/hi.txt",
                                                                                                                   #destino es el mismo archivo                  
                                                                                                                   #pero con un nuevo nombre
 
+#BORRAR con shutil
+#borrar un carpeta (tree/arboles)
+#syntax shutil.rmtree(path)
+shutil.rmtree("C:/Users/jorge/OneDrive/Escritorio/DEV/Path2PythonMaster/REAL PYTHON BOOK/shutil_folder")
+
+
+
+
 
 
