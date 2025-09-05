@@ -13,17 +13,17 @@ path = r"C:/Users/jorge/OneDrive/Escritorio/DEV/Path2PythonMaster/REAL PYTHON BO
 #eliminar un archivo
 #syntax os.remove(path)
 
-os.remove(path+"shutil_folder/hi3.txt")
+os.remove(path+"shutil_folder/hi4.txt")
                     # ../es para subir una carpeta                 
-shutil.copy((path+"../hello.txt"),(path+"/shutil_folder/hi4.txt")) #aca jugamos con la ubicacion 
+shutil.copy((path+"../hello.txt"),(path+"/shutil_folder/hi5.txt")) #aca jugamos con la ubicacion 
                                                                    #el folder con el salto '../' 
                                                                    
 
 #Utilizar os para crear carpetas
 #syntax os.mkdir(path)
-os.mkdir(path+"test_folder1")
+os.mkdir(path+"test_folder2")
 
 #Utilizar os para eliminar carpetas
 #syntax os.rmdir(path)
 #cabe recalcar que solo eliminara carpetas vacias!!! 
-os.rmdir(path+"test_folder")
+os.remove(path+"test_folder1")
