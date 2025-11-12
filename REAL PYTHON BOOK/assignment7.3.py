@@ -11,3 +11,4 @@ with open(ruta +"movies.csv", "r") as myInput:
             bestMovie = movie
 
 print(f"The highest rated movie is {bestMovie} with a rating of {highestRated}")
+
